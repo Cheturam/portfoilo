@@ -1,0 +1,46 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-sticky {
+    position: fixed;
+    left: 5%;
+    right: 5%;
+    width: 90%;
+}
+
+.header-logo {
+    width: 7rem;
+}
+.header-nav {
+    display: none;
+    gap: 6rem;
+    justify-content: space-around;
+}
+.header-nav li {
+    cursor: pointer;
+    font-size: 2rem;
+}
+.header-mobilemenu {
+    display: block;
+}
+.header-toggle {
+    display: flex;
+    justify-content: end;
+}
+
+@media (min-width: 640px) {
+    .header-nav {
+        display: flex;
+    }
+    .header-mobilemenu {
+        display: none;
+    }
+}
+
+@media (min-width: 1024px) {
+    .header-nav {
+        gap: 9rem;
+    }
+}

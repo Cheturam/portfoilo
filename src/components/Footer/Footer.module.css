@@ -1,0 +1,13 @@
+.footer-content div {
+    cursor: pointer;
+}
+.footer-copywrite {
+    margin-top: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.footer-copywrite img {
+    width: 1%;
+}
